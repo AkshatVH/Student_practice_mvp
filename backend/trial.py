@@ -16,3 +16,5 @@ print("\nUsers table:")
 print(users_df)
 
 # this is just the trial for lazy Git
+# This is a trail for learning branch and git merge
+# HEllo I'm from git branch
