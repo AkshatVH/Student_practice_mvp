@@ -26,6 +26,26 @@ Upload your textbooks and past exam papers, and the system finds, ranks, and org
 
 ---
 
+## 📖 Documentation
+
+- Start here: `docs/README.md`
+- Backend modules:
+  - `docs/backend/pdf_utils.md` — PDF parsing and OCR utilities
+  - `docs/backend/database.md` — LanceDB connection and usage
+  - `docs/backend/models.md` — Schemas and tables
+  - `docs/backend/trial.md` — Example inspection script
+
+Quick example to extract text from a PDF:
+
+```python
+from backend.pdf_utils import extract_text
+
+text = extract_text("/path/to/document.pdf")
+print(text[:500])
+```
+
+---
+
 ## 📂 Project TODO List
 # ✅ 14-Day MVP Timetable (no web search / no auto-download)
 
